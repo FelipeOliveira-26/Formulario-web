@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário Completo</h1>
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>Nome: <input type="text"></label><br>
+        <label>Sobrenome: <input type="text"></label><br>
+        <label>Email: <input type="text"></label><br>
+        <label>Telefone: <input type="number"></label><br>
+        <label>Aniversário: <input type="date"> </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Endereço</legend>
+        <label>Rua: <input type="text"></label><br>
+        <label>Número: <input type="text"></label><br>
+        <label>Cidade: <input type="text"></label><br>
+        <label>Estado: <input type="text"></label><br>
+        <label>CEP: <input type="number"></label><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferências</legend>
+        <label>Cor Favorita: </label>
+        <select>
+            <option>--Nenhum--</option>
+            <option>Vermelho</option>
+            <option>Azul</option>
+            <option>Verde</option>
+            <option>Amarelo</option>
+         </select>
+            <br>
+           <label>Gênero: </label>
+            <input type="radio" value="m" name="genero"/>
+            <label>Masculino </label>
+            <input type="radio" value="f" name="genero"/>
+            <label>Feminino </label><br>
+
+            <label>Interesses: </label><br>
+            <input type="checkbox" value="esportes">
+            <label>Esportes</label><br>
+            <input type="checkbox" value="musica">
+            <label>Música</label><br>
+            <input type="checkbox" value="tecnologia">
+            <label>Tecnologia</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Upload de Arquivos</legend>
+        <input type="file">
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações de login</legend>
+        <label>Nome de Usuário: <input type="text"></label><br>
+        <label>Senha: <input type="password"></label><br>
+        <label>Confirmar Senha: <input type="password"></label>
+      </fieldset><br>
+
+      <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
