@@ -1,0 +1,37 @@
+ body{
+    background-color: #3f5068;
+    margin: 0;
+    padding: 40px 20px;
+ }
+
+ form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+ h1{
+    color:#2563EB;
+    max-width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+ }
+   legend{
+    color:#7C3AED
+   }
+
+   label {
+    display: block;
+    
+   }
+
+   .baixo{
+    display: inline;
+   }
+
+   fieldset{
+    background-color:#383f4e;
+    border-radius: 15px;
+   }
