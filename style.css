@@ -1,5 +1,5 @@
  body{
-    background-color: #3f5068;
+    background-color: #224a81;
     margin: 0;
     padding: 40px 20px;
  }
@@ -13,13 +13,14 @@
 }
 
  h1{
-    color:#2563EB;
-    max-width: 300px;
+    color:#070707;
+    max-width: 400px;
     padding: 30px;
     margin: 0 auto;
+    font-family: Arial, sans-serif;
  }
    legend{
-    color:#7C3AED
+    color:#172033
    }
 
    label {
@@ -32,6 +33,18 @@
    }
 
    fieldset{
-    background-color:#383f4e;
+    background-color:#98c1e7;
     border-radius: 15px;
    }
+
+  form{
+   background-color:#ffffff;
+   font-family: Arial, sans-serif;
+  
+  }
+  
+  input{
+   border-radius: 5px;
+  }
+
+  
